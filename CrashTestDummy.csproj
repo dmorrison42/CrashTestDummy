@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <TrimmerRootAssembly Include="System.Diagnostics.StackTrace" />
+  </ItemGroup>
+
 </Project>
