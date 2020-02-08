@@ -5,4 +5,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <TrimmerRootAssembly Include="System.Diagnostics.StackTrace" />
+  </ItemGroup>
+  <PropertyGroup>
+    <_ExtraTrimmerArgs>--keep-facades true</_ExtraTrimmerArgs>
+  </PropertyGroup>
+
 </Project>
